@@ -1,4 +1,4 @@
-# Project: Real-Time Ping Pong Game
+# Project: Real-Time Ping Pong Game(Improvised Edition)
 
 An interactive terminal-based ping pong game developed using **Pygame**, emphasizing object-oriented design, collision mechanics, dynamic gameplay states, and immersive audio feedback.
 
@@ -74,20 +74,31 @@ The game features three distinct sound effects:
 
 **Note:** Game operates normally without sound files, printing warnings if audio initialization fails.
 
-## Project Architecture
+## Project Structure
+```ping-pong```
 
-ping-pong/
-├── main.py
-├── requirements.txt
-├── game/
-│   ├── game_engine.py
-│   ├── paddle.py
-│   └── ball.py
-├── sounds/
-│   ├── paddle_hit.wav
-│   ├── wall_bounce.wav
-│   └── score.wav
-└── README.md
+```├── main.py```
+
+```├── requirements.txt```
+
+```├── game/```
+
+```│   ├── game_engine.py```
+
+```│   ├── paddle.py```
+
+```│   └── ball.py```
+
+```├── sounds/```
+
+```│   ├── paddle_hit.wav```
+
+```│   ├── wall_bounce.wav```
+
+```│   └── score.wav```
+
+```└── README.md```
+
 
 
 
